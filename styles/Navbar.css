@@ -1,0 +1,44 @@
+.app__main__navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: black;   
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+    width: 100%;
+    position: fixed;
+    backdrop-filter: blur(4px);
+    z-index: 5;
+    background: transparent;
+}
+
+
+
+
+.app__navbar__name {
+    position: relative;
+    left: -4rem;
+    font-size: 2rem;
+
+    font-family: 'Koulen', cursive;
+}
+
+
+.app__ul__links {
+    position: relative;
+    left: 6rem;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    font-family: 'Permanent Marker', cursive;
+    text-transform: uppercase;
+}
+
+
+.link_1:hover {
+    color: grey;
+}
+
+.link_2:hover {
+    color: grey;
+}

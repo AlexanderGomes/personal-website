@@ -1,0 +1,145 @@
+.app__hero__heading {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    z-index: 3;
+    top: 3rem;
+
+    background-color: rgb(255, 255, 255);
+    height: 350px;
+    width: 350px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    font-weight: 500;
+    
+}
+
+
+
+.app__main__hero {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app__h4 {
+    position: relative;
+    top: 6rem;
+    left: 5.50rem;
+    font-size: 20px;
+}
+
+.app__h3 {
+    position: relative;
+    top: 6rem;
+    left: 2.20rem;
+
+    font-size: 20px;
+}
+
+.app__h1 {
+    position: relative;
+    top: 6rem;
+    left: 10px;
+}
+
+
+.app__hero__skills {
+ display: wrap;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+
+   
+}
+
+.app__figma {
+   height: 60px;
+    width: 60px;
+    position: relative;
+    left: 1.10rem;
+    top: -19.40rem;
+    z-index: 2;
+
+  
+
+}
+
+.app__figma__circle {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    position: relative;
+    top: -19.5rem;
+    left: -4rem;
+}
+
+ 
+
+
+.app__react {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: -12.50rem;
+    left: 9rem;
+
+    box-shadow:  0 0 30px rgba(45, 42, 42, 0.5);
+    border-radius: 50%;
+
+}
+
+.app__react__circle {
+    background-color: rgb(255, 255, 255);
+    height: 130px;
+    width: 160px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+}
+
+@media screen and (max-width:500px )  {
+    .app__react__circle {
+     height: 150px;
+     width: 5000px;
+    }
+}
+
+
+.app__node {
+    height: 100px;
+    width: 120px;
+    position: relative;
+    top: -19rem;
+    left: 1rem;
+    box-shadow:  0 0 30px rgba(45, 42, 42, 0.5);
+    border-radius: 50%;
+
+}
+
+.app__node__circle {
+    background-color: rgb(255, 255, 255);
+    height: 130px;
+    width: 160px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+}
+
+.app__sass{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: -13rem;
+    left: -11rem;
+    box-shadow:  0 0 30px rgba(45, 42, 42, 0.5);
+    border-radius: 50%;
+
+}
+
+
+
+
