@@ -11,8 +11,11 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     border-radius: 50%;
     font-weight: 500;
-    
+
+
+
 }
+
 
 
 
@@ -21,6 +24,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 .app__h4 {
@@ -28,6 +32,7 @@
     top: 6rem;
     left: 5.50rem;
     font-size: 20px;
+    color: #f15025;
 }
 
 .app__h3 {
@@ -41,7 +46,8 @@
 .app__h1 {
     position: relative;
     top: 6rem;
-    left: 10px;
+    left: 19px;
+    font-size: 30px;
 }
 
 
@@ -60,12 +66,9 @@
    height: 60px;
     width: 60px;
     position: relative;
-    left: 1.10rem;
-    top: -19.40rem;
+    left: -1rem;
+    top: -16.40rem;
     z-index: 2;
-
-  
-
 }
 
 .app__figma__circle {
@@ -75,39 +78,30 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     border-radius: 50%;
     position: relative;
-    top: -19.5rem;
-    left: -4rem;
+    top: -21.5rem;
+    left: -2rem;
 }
 
- 
 
 
 .app__react {
     height: 100px;
     width: 100px;
     position: relative;
-    top: -12.50rem;
-    left: 9rem;
+    top: -12.90rem;
+    left: 11rem;
 
     box-shadow:  0 0 30px rgba(45, 42, 42, 0.5);
     border-radius: 50%;
-
+   background-color: white;
 }
 
-.app__react__circle {
-    background-color: rgb(255, 255, 255);
-    height: 130px;
-    width: 160px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    border-radius: 50%;
-}
+ .app__react:hover {
+    background-color: black;
+    transition: all 0.9s ease-in-out;
+    transform: scale(1.2);
+} 
 
-@media screen and (max-width:500px )  {
-    .app__react__circle {
-     height: 150px;
-     width: 5000px;
-    }
-}
 
 
 .app__node {
@@ -115,18 +109,11 @@
     width: 120px;
     position: relative;
     top: -19rem;
-    left: 1rem;
+    left: 2rem;
     box-shadow:  0 0 30px rgba(45, 42, 42, 0.5);
     border-radius: 50%;
+    background-color: white;
 
-}
-
-.app__node__circle {
-    background-color: rgb(255, 255, 255);
-    height: 130px;
-    width: 160px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    border-radius: 50%;
 }
 
 .app__sass{
@@ -137,9 +124,175 @@
     left: -11rem;
     box-shadow:  0 0 30px rgba(45, 42, 42, 0.5);
     border-radius: 50%;
+    background-color: white;
+
+}
+
+.app__sass:hover {
+    background-color: black;
+    transition: all 0.9s ease-in-out;
+    transform: scale(1.2);
 
 }
 
 
 
 
+
+.app__hero__move {
+    position: relative;
+    top: -10rem;
+    left: 0rem;
+}
+
+.app__left__text {
+    position: relative;
+    top: 14rem;
+    left: -2rem;
+    display: column;
+}
+
+@media screen and (min-width: 756px) {
+   
+   .app__left__text {
+       position: relative;
+         top: -20.50rem;
+         left: -15rem;
+   }
+    
+}
+@media screen and (min-width: 1100px) {
+    .app__left__text {
+        position: relative;
+        top: -19.80rem;
+        left: -25rem;
+    }
+}
+
+.app__left__h4 {
+  font-size: 25px;
+  position: relative;
+  left: 1rem;
+  color: #f15025;
+}
+
+.app__left__h5 {
+  font-size: 20px;
+  position: relative;
+    top: -1.50rem;
+    left: 1.90rem;
+}
+
+.app__left__h6 {
+font-size: 18px;
+
+position: relative;
+top: -3.50rem;
+left: 2.90rem;
+}
+
+.app__left__img {
+    height: 50px;
+    width: 50px;
+
+    position: relative;
+    left: 4.90rem;
+    top: 1.80rem;
+
+
+    background-color: yellow;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+ 
+}
+
+.app__left__img:hover {
+    transition: all 0.9s ease-in-out;
+    transform: scale(1.2);
+}
+
+.app__left__move {
+    background-color: rgb(255, 255, 255);
+    height: 110px;
+    width: 200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    
+}
+
+.app__right__move {
+position: relative;
+left: 13rem;
+top: 2rem;
+
+background-color: rgb(255, 255, 255);
+height: 110px;
+width: 200px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+border-radius: 15px;
+
+}
+
+.app__right__h4 {
+ font-size: 22px;
+    position: relative;
+   left: 1rem;
+   top: 3px;
+   color: #f15025;
+}
+
+.app__right__h5 {
+    font-size: 20px;
+    position: relative;
+    left: 1.40rem;
+    top: -1.50rem;
+}
+
+.app__right__h6 {
+    font-size: 18px;
+    position: relative;
+     top: -3.50rem;
+     left: 4rem;
+}
+
+.app__right__img {
+    height: 50px;
+    width: 50px;
+    position: relative;
+    left: 18rem;
+    top: 3.80rem;
+
+    background-color: #ced0ce;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+}
+
+@media screen and (min-width: 756px) {
+    .app__right__text {
+        position: relative;
+        top: -34rem;
+        left: 11rem;
+    }
+}
+    
+@media screen and (min-width: 1100px) {
+   .app__right__text {
+       left: 22rem;
+       top: -33rem;
+
+   }
+    
+}
+
+
+.saving__colors {
+    color: #f15025;
+    color: #ffff;
+    color: #e6e8e6;
+    color: #ced0ce;
+    color: #191919;
+}
+
+body {
+    background: #f15125da;
+}

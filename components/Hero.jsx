@@ -1,15 +1,29 @@
 import React from 'react'
 import {motion} from 'framer-motion'
+import {Three} from '../components'
 
 const Hero = () => {
   return (
-    <div className='app__main__hero'>
+   
+     
+    <div className='app__main__hero'>  
      <div className='app__hero__heading'>
      <motion.div
      whileInView={{y: [-100, 0], opacity: [0, 1]}}
+     transition={{duration: 5.5}}
+     >
+     <Three />
+     </motion.div>
+     
+     <div className='app__hero__move'>
+
+     <motion.div
+     
+     whileInView={{y: [-100, 0], opacity: [0, 1]}}
      transition={{duration: 1.5}}
      >
-      <h1 className='app__h1'>I'm Alexsander Gomes</h1>
+     
+      <h1 className='app__h1'>I'm Alexsander Gom<span className='span__name'>es</span></h1>
      </motion.div>
       <motion.div
          whileInView={{ x: [-200, 0], opacity: [0, 1] }}
@@ -24,8 +38,37 @@ const Hero = () => {
       <h4 className='app__h4'>For your bussiness</h4>
        </motion.div>
      </div>
-  
+
+     <motion.div
+      whileInView={{ x: [-200, 0], opacity: [0, 1] }}
+      transition={{ duration: 4 }}
+     >
+      <div className='app__left__text'>
+        <img className='app__left__img' src={'/bulb.svg'} alt="" />
+        <div className='app__left__move'>
+        <h4 className='app__left__h4'>One Step Away</h4>
+        <h5 className='app__left__h5'>from giving life</h5>
+        <h6 className='app__left__h6'>to you idea</h6>
+        </div>
+      </div>
+     </motion.div>
+     <motion.div
+         whileInView={{ x: [200, 0], opacity: [0, 1] }}
+      transition={{ duration: 4 }}
+     >
+      <div className='app__right__text'>
+         <img className='app__right__img' src={'/face.svg'} alt="" />
+         <div className='app__right__move'>
+           <h4 className='app__right__h4'>Your Satisfaction</h4>
+           <h5 className='app__right__h5'>is my Number one</h5>
+           <h6 className='app__right__h6'>Priority</h6>
+         </div>
+      </div>
+     </motion.div>
+     </div>
+     <img className='img__app' src="" alt="" />
     </div>
+     
   )
 }
 

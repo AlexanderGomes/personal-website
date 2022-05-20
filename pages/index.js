@@ -1,4 +1,4 @@
-import {Navbar, Hero, Work, Footer, Skills} from '../components'
+import {Navbar, Hero, Work, Footer, Skills, Three} from '../components'
 
 
 export default function Home() {
@@ -21,8 +21,6 @@ export default function Home() {
         <br/>
         <br/>
         <br/>
-        <br/>
-        <br/>
          <Skills />
         <br/>
         <br/>
@@ -31,7 +29,8 @@ export default function Home() {
         <br/>
         <br/>
         <br/>
-
+        <br/>
+        <br/>
         <Work />
         <Footer />
     </div>

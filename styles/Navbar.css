@@ -9,7 +9,7 @@
     position: fixed;
     backdrop-filter: blur(4px);
     z-index: 5;
-    background: transparent;
+    /* background: transparent; */
 }
 
 
@@ -36,9 +36,16 @@
 
 
 .link_1:hover {
-    color: grey;
+    color: #f15025;
+    transition: all 0.4s ease-in-out ;
 }
 
 .link_2:hover {
-    color: grey;
+    color: #f15025;
+    transition: all 0.4s ease-in-out ;
 }
+
+.span__name {
+    color: #f15025;
+}
+
