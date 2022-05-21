@@ -10,6 +10,7 @@
     backdrop-filter: blur(4px);
     z-index: 5;
     /* background: transparent; */
+
 }
 
 
@@ -49,3 +50,8 @@
     color: #f15025;
 }
 
+
+.link_1 {
+    scroll-behavior: smooth;
+
+}

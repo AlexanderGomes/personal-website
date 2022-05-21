@@ -17,8 +17,8 @@ const Navbar = () => {
     </div>
     <div className='app__navbar__links'>
      <ul className='app__ul__links'>
-     <a className='link_1' href=""><li>Work</li></a>
-     <a className='link_2' href=""><li>About</li></a>
+     <a className='link_1' href="#one"><li>Work</li></a>
+     <a className='link_2' href={'/About'}><li>About</li></a>
      </ul>
     </div>
     </div>

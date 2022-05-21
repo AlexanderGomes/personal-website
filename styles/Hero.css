@@ -143,6 +143,8 @@
     position: relative;
     top: -10rem;
     left: 0rem;
+
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .app__left__text {
@@ -295,4 +297,39 @@ border-radius: 15px;
 
 body {
     background: #f15125da;
+}
+
+.app__contact__text {
+border: 2px solid #090909da;
+border-radius: 12px;
+background-color: black;
+color: white;
+width: 80px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.app__contact__call {
+  border: 2px solid black;
+  color: white;
+  background-color: black;
+  border-radius: 12px;
+  width: 80px;
+
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.app__contact {
+display: flex;
+justify-content: center;
+align-content: center;
+
+
+position: relative;
+top: 7rem;
+gap: 3rem;
+
 }
