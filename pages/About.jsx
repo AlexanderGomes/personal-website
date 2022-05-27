@@ -17,7 +17,7 @@ const About = () => {
     <div className='app__navbar__links'>
      <ul className='app__ul__links'>
      <a className='link_1' href='tel:+1 (510) 630-5188'><li>Contact</li></a>
-     <a className='link_2' href='/'><li>Go Back</li></a>
+     <Link className='link_2' href='/'><li>Go Back</li></Link>
      </ul>
     </div>
     </div>
