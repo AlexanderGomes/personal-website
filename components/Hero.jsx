@@ -1,7 +1,7 @@
 import React from 'react'
 import {motion} from 'framer-motion'
 import {Three} from '../components'
-
+import Image from 'next/image'
 const Hero = () => {
   return (
    
@@ -48,7 +48,7 @@ const Hero = () => {
       transition={{ duration: 4 }}
      >
       <div className='app__left__text'>
-        <img className='app__left__img' src={'/bulb.svg'} alt="" />
+        <img className='app__left__img' src={'/bulb.svg'} alt=""  height={50} width={50}/>
         <div className='app__left__move'>
         <h4 className='app__left__h4'>One Step Away</h4>
         <h5 className='app__left__h5'>From Giving Life</h5>
@@ -61,7 +61,7 @@ const Hero = () => {
       transition={{ duration: 4 }}
      >
       <div className='app__right__text'>
-         <img className='app__right__img' src={'/face.svg'} alt="" />
+         <img className='app__right__img' src={'/face.svg'} alt="" height={50} width={50} />
          <div className='app__right__move'>
            <h4 className='app__right__h4'>Your Satisfaction</h4>
            <h5 className='app__right__h5'>Is My Number One</h5>
@@ -70,7 +70,7 @@ const Hero = () => {
       </div>
      </motion.div>
      </div>
-     <img className='img__app' src="" alt="" />
+     {/* <Image className='img__app' src="" alt="" /> */}
     </div>
      
   )

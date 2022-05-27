@@ -1,5 +1,4 @@
 import React from 'react'
-import Head from 'next/head'
 import {AiFillLinkedin, AiFillGithub, AiFillInstagram} from 'react-icons/ai'
 import {Link} from 'next/link'
 
@@ -8,10 +7,7 @@ const About = () => {
     // navbar
     <div className='app__about__main'>
     <div className='app__main__navbar'>
-    <Head>
-    <link href="https://fonts.googleapis.com/css2?family=Koulen&family=Roboto&display=swap" rel="stylesheet"/>
-    <link href="https://fonts.googleapis.com/css2?family=Koulen&family=Permanent+Marker&family=Roboto&display=swap" rel="stylesheet"/>
-    </Head>
+   
     <div className='app__navbar__name'>
       Gom<span className='span__name'>ES</span>
     </div>
