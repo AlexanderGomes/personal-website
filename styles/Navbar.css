@@ -55,4 +55,16 @@
 .link_1 {
     scroll-behavior: smooth;
 
+} 
+
+.link_2 {
+    cursor: pointer;
+}
+.cc {
+    cursor: pointer;
+}
+
+.cc:hover {
+    color: #f15025;
+    transition: all 0.4s ease-in-out ;
 }

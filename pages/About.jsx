@@ -1,6 +1,6 @@
 import React from 'react'
 import {AiFillLinkedin, AiFillGithub, AiFillInstagram} from 'react-icons/ai'
-import {Link} from 'next/link'
+import Link from 'next/link'
 
 const About = () => {
   return (
@@ -14,7 +14,9 @@ const About = () => {
     <div className='app__navbar__links'>
      <ul className='app__ul__links'>
      <a className='link_1' href='tel:+1 (510) 630-5188'><li>Contact</li></a>
-     <Link className='link_2' href='/'><li>Go Back</li></Link>
+     <Link className='link_2' href={'/'}>
+     <li className='cc'>Go Back</li>
+     </Link>
      </ul>
     </div>
     </div>
