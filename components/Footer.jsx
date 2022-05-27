@@ -5,13 +5,13 @@ const Footer = () => {
     <div className='app__footer__main'>
       <p className='app__footer__text'>Follow Me On Social Medias</p>
       <div className='app__footer__icons'>
-      <a href="https://github.com/AlexanderGomes" target='_blank'>
+      <a href="https://github.com/AlexanderGomes" target='_blank' rel="noreferrer">
        <AiFillGithub className='app__git__footer' size={30} />
       </a>
-      <a href="https://www.instagram.com/alexsandergomess07" target='_blank'>
+      <a href="https://www.instagram.com/alexsandergomess07" target='_blank' rel="noreferrer">
         <AiFillInstagram className='app__inst__footer' size={30}/>
       </a>
-      <a href="https://www.linkedin.com/in/alexsander-hamir-79ab051a4" target='_blank'  className='app__linkd__footer'>
+      <a href="https://www.linkedin.com/in/alexsander-hamir-79ab051a4" target='_blank'  rel="noreferrer" className='app__linkd__footer'>
         <AiFillLinkedin size={30} />
       </a>
       </div>

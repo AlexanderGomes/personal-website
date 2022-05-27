@@ -1,6 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
 import {AiFillLinkedin, AiFillGithub, AiFillInstagram} from 'react-icons/ai'
+import {Link} from 'next/link'
 
 const About = () => {
   return (

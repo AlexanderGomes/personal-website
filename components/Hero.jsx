@@ -38,7 +38,7 @@ const Hero = () => {
       <h4 className='app__h4'>For your bussiness</h4>
        </motion.div>
        <div className='app__contact'>
-        <a href="mailto:sander.alex0909@gmail.com" target='_blank' className='app__contact__text'>Email</a>
+        <a href="mailto:sander.alex0909@gmail.com" target='_blank' rel="noreferrer" className='app__contact__text'>Email</a>
         <a href="tel:+1 (510) 630-5188"   className='app__contact__call'>Text me</a>
        </div>
      </div>
