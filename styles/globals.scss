@@ -75,7 +75,7 @@ body {
   align-items: center;
 
   background-color: white;
- height: 380px;
+ height: 480px;
  width: 500px;
  border-radius: 18px;
 margin: 0rem -1rem 0rem;
@@ -95,11 +95,13 @@ margin: 0rem -1rem 0rem;
 .app__whole {
   position: relative;
   left: -1rem;
+  top: 4rem;
 }
 
 .app__main__div {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  height: 200px;
   justify-content: space-between;
 }

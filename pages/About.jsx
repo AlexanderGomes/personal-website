@@ -27,7 +27,7 @@ const About = () => {
 
 <div className='app__main__about'>
 <div className='app__whole'>
-<h2 className='app__main__text'>Brief About Education</h2>
+<h2 className='app__main__text'>Brief</h2>
 <p>I'm a self-taught Full-Stack Developer, </p>
 <p>Most part of my knowledge comes from free online resources,</p>
 <p>and a few paid courses for deeper understanding, </p>
@@ -35,7 +35,9 @@ const About = () => {
 <p> approach to my learning journey,</p>
 <p>It took me three months to be able to build full stack</p>
 <p> applications with confidence, and took me a week to realize</p>
-<p> that stackoverflow was now part of my life forever</p>
+<p> that stackoverflow was now part of my life forever.</p>
+<p>This site is my way of showing all the improvement, since my first</p>
+<p>project ultil where my skills are at right now.</p>
 </div>
 </div>
 

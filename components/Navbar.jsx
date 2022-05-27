@@ -14,6 +14,8 @@ const Navbar = () => {
     </Head>
     <div className='app__navbar__name'>
       Gom<span className='span__name'>ES</span>
+
+    
     </div>
     <div className='app__navbar__links'>
      <ul className='app__ul__links'>
