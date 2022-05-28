@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react'
 import {AiFillEye, AiFillGithub} from 'react-icons/ai'
 import { urlFor, client } from '../LIB/client'
 import {motion} from 'framer-motion'
-import Image from 'next/image'
+
 
 const Work = ({workData}) => {
   const [animateCard, setAnimateCard] = useState({ y: 0, opacity: 1 });
@@ -20,7 +20,7 @@ const Work = ({workData}) => {
        {workData?.map((work) => (
         <div className="app__work-item app__flex" key={work.id}>
         <div className="app__work-img app__flex">
-        <Image src={urlFor(work.imgUrl)} alt="" />
+        <img src={urlFor(work.imgUrl)} alt="" />
         <motion.div
              whileHover={{ opacity: [0, 1] }}
                 transition={{ duration: 0.25, ease: 'easeInOut', staggerChildren: 0.5 }}
