@@ -66,8 +66,8 @@
    height: 60px;
     width: 60px;
     position: relative;
-    left: -1rem;
-    top: -16.40rem;
+    left: 2px;
+    top: -18.70rem;
     z-index: 2;
 }
 
@@ -78,8 +78,8 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     border-radius: 50%;
     position: relative;
-    top: -21.5rem;
-    left: -2rem;
+    top: -19rem;
+    left: -5rem;
 }
 
 

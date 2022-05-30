@@ -22,7 +22,6 @@
     left: -4rem;
     font-size: 2rem;
 
-    font-family: 'Koulen', cursive;
 }
 
 
@@ -32,7 +31,6 @@
     list-style: none;
     display: flex;
     gap: 1rem;
-    font-family: 'Permanent Marker', cursive;
     text-transform: uppercase;
 }
 
