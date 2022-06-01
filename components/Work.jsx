@@ -8,6 +8,7 @@ const Work = ({workData}) => {
   const [animateCard, setAnimateCard] = useState({ y: 0, opacity: 1 });
   return (
     <div id='one' className='move__all'>
+
     <div>
       <h2 className='head-text'>All <span className='span__name'>My</span>Projects</h2>
     </div>
@@ -36,7 +37,7 @@ const Work = ({workData}) => {
           <AiFillEye />
           </motion.div>
           </a>
-          <a href={work.codeLink} target="_blank" rel="noreferrer">
+          {/* <a href={work.codeLink} target="_blank" rel="noreferrer">
             <motion.div
              whileInView={{ scale: [0, 1] }}
                     whileHover={{ scale: [1, 0.90] }}
@@ -45,7 +46,7 @@ const Work = ({workData}) => {
             >
             <AiFillGithub />
             </motion.div>
-          </a>
+          </a> */}
         </motion.div>
         </div>
         <div className="app__work-content app__flex">

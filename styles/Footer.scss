@@ -1,50 +1,19 @@
-.app__footer__main {
-    //  width: 100%;
-    height: 120px;
-    background-color: white;
+.app__footer {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+background-color: white;
+position:absolute;
+width:100%;
 
-    // border-radius: 18px;
-    margin-top: 4rem;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-
-
-   
 }
-
-@media screen and (min-width: 754px) {
-    .app__footer__main {
-        margin-top: -6rem;
-    }
-}
-
 .app__footer__text {
-position: relative;
-top: 3rem;
+    font-size: 19px;
 }
-
 .app__footer__icons {
-position: relative;
-top: -3rem;
-
-}
-
-.app__git__footer {
+display: flex;
+gap: 2rem;
  position: relative;
- left: -2rem;
-}
-
-.app__inst__footer {
-position: relative;
-top: 1rem;
-
-}
-
-.app__linkd__footer {
-position: relative;
-left: 2rem;
-width: 20px;
-height: 20px;
+bottom: 5px;
 }

@@ -2,7 +2,7 @@ import React from 'react'
 import {AiFillLinkedin, AiFillGithub, AiFillInstagram} from 'react-icons/ai'
 const Footer = () => {
   return (
-    <div className='app__footer__main'>
+    <div className='app__footer'>
       <p className='app__footer__text'>Follow Me On Social Medias</p>
       <div className='app__footer__icons'>
       <a href="https://github.com/AlexanderGomes" target='_blank' rel="noreferrer">
