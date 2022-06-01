@@ -47,13 +47,13 @@ const About = () => {
     <div className='app__footer__about'>
       <p className='app__footer__text'>Follow me on social medias</p>
       <div className='app__footer__icons'>
-      <a href="">
+      <a href="https://github.com/AlexanderGomes" target='_blank' rel="noreferrer">
        <AiFillGithub className='app__git__footer' size={30} />
       </a>
-      <a href="">
+      <a href="https://www.instagram.com/alexsandergomess07" target='_blank' rel="noreferrer">
         <AiFillInstagram className='app__inst__footer' size={30}/>
       </a>
-      <a href=""  className='app__linkd__footer'>
+      <a href="https://www.linkedin.com/in/alexsander-hamir-79ab051a4" target='_blank'  rel="noreferrer" className='app__linkd__footer'>
         <AiFillLinkedin size={30} />
       </a>
       </div>
