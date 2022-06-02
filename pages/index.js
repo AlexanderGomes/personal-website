@@ -6,7 +6,7 @@ export default function Home({workData}) {
   return (
     <div className='app__main__div'>
         <Navbar />
-        <Hero />
+        <Hero className='app' />
          <Skills />
         <Work workData={workData} />
         <Footer />

@@ -203,7 +203,10 @@ top: -5rem;
 //fix the hight
   .app__main__hero {
    height: 100%;
-   min-height: 140vw;
+   margin-bottom: 20rem;
+   position: relative;
+   top: 8rem;
+  //  min-height: 110vw;
   }
 
   .app__work-portfolio {
