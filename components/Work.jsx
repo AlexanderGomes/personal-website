@@ -55,6 +55,9 @@ const Work = ({workData}) => {
               <div className="app__work-tag app__flex">
                 <p className="tag__text">{work.tags[0]}</p>
               </div>
+              <a className='app__svg' href={work.projectLink} target="_blank" rel="noreferrer">
+          <AiFillEye size={20} />
+              </a>
         </div>
         </div>
        ))}
